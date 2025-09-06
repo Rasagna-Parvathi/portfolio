@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <style>
+    /* General Styles */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      scroll-behavior: smooth;
+    }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: #0f172a;
+      color: #e2e8f0;
+      line-height: 1.6;
+    }
+
+    header {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      background: #1e293b;
+      padding: 15px 0;
+      text-align: center;
+      z-index: 1000;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+    }
+
+    header h1 {
+      margin-bottom: 8px;
+      font-size: 24px;
+      color: #38bdf8;
+    }
+
+    nav a {
+      margin: 0 15px;
+      color: #e2e8f0;
+      text-decoration: none;
+      font-weight: 500;
+      transition: 0.3s;
+    }
+
+    nav a:hover {
+      color: #38bdf8;
+    }
+
+    section {
+      padding: 100px 20px;
+      min-height: 100vh;
+      text-align: center;
+    }
+
+    h2 {
+      font-size: 28px;
+      margin-bottom: 20px;
+      color: #38bdf8;
+    }
+
+    .card {
+      background: #1e293b;
+      padding: 25px;
+      margin: 20px auto;
+      width: 90%;
+      max-width: 700px;
+      border-radius: 15px;
+      box-shadow: 0 6px 12px rgba(0,0,0,0.5);
+      transition: transform 0.3s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+    }
+
+    ul {
+      list-style: none;
+    }
+
+    ul li {
+      margin: 10px 0;
+      font-size: 18px;
+    }
+
+    a.btn {
+      display: inline-block;
+      margin-top: 15px;
+      padding: 10px 20px;
+      background: #38bdf8;
+      color: #0f172a;
+      border-radius: 8px;
+      text-decoration: none;
+      transition: 0.3s;
+      font-weight: bold;
+    }
+
+    a.btn:hover {
+      background: #0ea5e9;
+      color: white;
+    }
+
+    footer {
+      background: #1e293b;
+      text-align: center;
+      padding: 20px;
+      color: #94a3b8;
+    }
+  </style>
+</head>
+<body>
+  <!-- HEADER -->
+  <header>
+    <h1>👋 Hi, I'm Rasagna Parvathi</h1>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#skills">Skills</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <!-- ABOUT -->
+  <section id="about">
+    <div class="card">
+      <h2>About Me</h2>
+      <p> I am a BTech CSE student with a strong interest in web development and problem-solving. I enjoy learning new technologies and applying them in real projects..</p>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects">
+    <div class="card">
+      <h2>Projects</h2>
+      <ul>
+        <li><b>Portfolio Website</b> – Personal website showcasing my work.</li>
+        <li><b>Chatbot</b> – Built using Python & NLP.</li>
+        <li><b>Student Database</b> – SQL-based management system.</li>
+      </ul>
+      <a class="btn" href="https://github.com/Rasagna-Parvathi/III-YEARLAB " target="_blank">View My GitHub</a>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills">
+    <div class="card">
+      <h2>Skills</h2>
+      <ul>
+        <li>💻 C, Python, Java</li>
+        <li>🌐 HTML, CSS, JavaScript</li>
+        <li>🗄️ SQL, DBMS</li>
+        <li>☁️ Basics of Cloud (AWS)</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact">
+    <div class="card">
+      <h2>Contact Me</h2>
+      <p>Email: yourname@email.com</p>
+      <p>LinkedIn: <a href="https://www.linkedin.com/in/rasagna-parvathi-6267252b2 " target="_blank">https://www.linkedin.com/in/rasagna-parvathi-6267252b2 </a></p>
+      <p>GitHub: <a href="https://github.com/Rasagna-Parvathi/III-YEARLAB "target="_blank">https://github.com/Rasagna-Parvathi/III-YEARLAB </a></p>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>© 2025 Rasagna Parvathi. All Rights Reserved.</p>
+  </footer>
+</body>
+</html>
